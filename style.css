@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    border: 2px solid rgb(91, 142, 223);
+    padding: 50px;
+    font-size: x-large;
+}
+
+.icon{
+    color: rgb(160, 161, 221);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+label{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input{
+    width: 200px;
+    padding: 10px;
+}
+
+button{
+    width: 225px;
+    margin-top: 20px;
+    border: transparent;
+    padding: 5px;
+    background-color: rgb(9, 43, 113);
+    color: white;
+}
+button:hover{
+    background-color: aqua;
+}
